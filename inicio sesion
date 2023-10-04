@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login1.css">
+
+</head>
+<body>
+    <div class="pantalla_sesion">
+
+        <div class="imagen_sesion">
+            <img src="sala.jpg" id="sala">
+        </div>
+
+        <div class="inicio_sesion">
+            <div>
+                <h2>Inicio de sesión</h2>
+
+            </div>
+            <div class="usuario">
+                <form>
+                    <label for="Usuario"> <br></label>
+                    <input type="text" placeholder="Usuario:">
+                </form>
+
+            </div>
+            <div class="contraseña"> 
+                <form>
+                    <label for="contrasena"> <br></label>
+                    <input type="password" placeholder="Contraseña:">
+                </form>
+
+            </div>
+            <br>
+            <div class="ingresar" >
+                <button>INGRESAR</button>
+
+            </div>
+            <div class="crear_cuenta">
+                <button>CREAR CUENTA</button>
+
+            </div>
+            <div class="imagen_realty">
+                <img src="logo.png">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
